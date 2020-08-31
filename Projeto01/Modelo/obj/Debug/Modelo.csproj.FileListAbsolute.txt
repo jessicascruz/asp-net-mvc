@@ -1,0 +1,6 @@
+D:\Estudos\Asp Net\Projeto01\Modelo\bin\Debug\Modelo.dll
+D:\Estudos\Asp Net\Projeto01\Modelo\bin\Debug\Modelo.pdb
+D:\Estudos\Asp Net\Projeto01\Modelo\obj\Debug\Modelo.csprojAssemblyReference.cache
+D:\Estudos\Asp Net\Projeto01\Modelo\obj\Debug\Modelo.csproj.CoreCompileInputs.cache
+D:\Estudos\Asp Net\Projeto01\Modelo\obj\Debug\Modelo.dll
+D:\Estudos\Asp Net\Projeto01\Modelo\obj\Debug\Modelo.pdb
