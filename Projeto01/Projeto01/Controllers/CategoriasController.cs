@@ -1,16 +1,14 @@
 ﻿using System.Collections.Generic;
 using System.Web.Mvc;
-using System.Linq;
-using Projeto01.Contexts;
 using System.Net;
-using System.Data.Entity;
 using Modelo.Tabelas;
+using Servico.Tabelas;
 
 namespace Projeto01.Controllers
 {
     public class CategoriasController : Controller
     {
-        private EFContext context = new EFContext();
+        private CategoriaServico categoriaServico = new CategoriaServico();
 
         private static IList<Categoria> categorias = new List<Categoria>()
         {
@@ -45,7 +43,7 @@ namespace Projeto01.Controllers
         public ActionResult Index()
         {
             // return View(categorias.OrderBy(c => c.Nome));
-            return View(context.Categorias.OrderBy(c => c.Nome));
+            return View(categoriaServico.ObterCategoriasClassificadasPorNome());
         }
 
         // GET: Create
@@ -62,26 +60,14 @@ namespace Projeto01.Controllers
             //    categorias.Select(m => m.CategoriaId).Max() + 1;
 
             //categorias.Add(categoria);
-            context.Categorias.Add(categoria);
-            context.SaveChanges();
-
-            return RedirectToAction("Index");
+            return GravarCategoria(categoria);
         }
 
         public ActionResult Edit(long? id)
         {
             //return View(categorias.Where(
             //    m => m.CategoriaId == id).First());
-            if (id == null)
-            {
-                return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
-            }
-            Categoria categoria = context.Categorias.Find(id);
-            if (categoria == null)
-            {
-                return HttpNotFound();
-            }
-            return View(categoria);
+            return ObterVisaoCategoriaPorId(id);
         }
 
         [HttpPost]
@@ -95,14 +81,7 @@ namespace Projeto01.Controllers
             ////        categorias.Where(c => c.CategoriaId == categoria.CategoriaId).First())] = categoria;
 
             //categorias.Add(categoria);
-            if (ModelState.IsValid)
-            {
-                context.Entry(categoria).State = EntityState.Modified;
-                context.SaveChanges();
-                return RedirectToAction("Index");
-            }
-
-            return View(categoria);
+            return GravarCategoria(categoria);
 
         }
 
@@ -110,38 +89,14 @@ namespace Projeto01.Controllers
         {
             //return View(categorias.Where(
             //    m => m.CategoriaId == id).First());
-            if (id == null)
-            {
-                return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
-            }
-
-            Categoria categoria = context.Categorias.Find(id);
-            
-            if(categoria == null)
-            {
-                return HttpNotFound();
-            }
-
-            return View(categoria);
+            return ObterVisaoCategoriaPorId(id);
         }
 
         public ActionResult Delete(long? id)
         {
             //return View(categorias.Where(
             //    c => c.CategoriaId == id).First());
-            if (id == null)
-            {
-                return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
-            }
-
-            Categoria categoria = context.Categorias.Find(id);
-
-            if (categoria == null)
-            {
-                return HttpNotFound();
-            }
-
-            return View(categoria);
+            return ObterVisaoCategoriaPorId(id);
         }
 
         [HttpPost]
@@ -151,12 +106,52 @@ namespace Projeto01.Controllers
             //categorias.Remove(
             //    categorias.Where(c => c.CategoriaId == categoria.CategoriaId)
             //    .First());
-            Categoria categoria = context.Categorias.Find(id);
-            context.Categorias.Remove(categoria);
-            context.SaveChanges();
+            try
+            {
+                Categoria categoria = categoriaServico.EliminarCategoriaPorId(id);
 
-            // TempData["Message"] = "Fabricante	" + fabricante.Nome.ToUpper() + "	foi	removido";
-            return RedirectToAction("Index");
+                TempData["Message"] = "Categoria " + categoria.Nome.ToUpper() + " foi removido";
+
+                return RedirectToAction("Index");
+            }
+            catch
+            {
+                return View();
+            }
+        }
+
+        private ActionResult ObterVisaoCategoriaPorId(long? id)
+        {
+            if (id == null)
+            {
+                return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
+            }
+
+            Categoria categoria = categoriaServico.ObterCategoriaPorId((long)id);
+
+            if (categoria == null)
+            {
+                return HttpNotFound();
+            }
+
+            return View(categoria);
+        }
+
+        private ActionResult GravarCategoria(Categoria categoria)
+        {
+            try
+            {
+                if (ModelState.IsValid)
+                {
+                    categoriaServico.GravarCategoria(categoria);
+                    return RedirectToAction("Index");
+                }
+                return View(categoria);
+            }
+            catch
+            {
+                return View(categoria);
+            }
         }
 
     }

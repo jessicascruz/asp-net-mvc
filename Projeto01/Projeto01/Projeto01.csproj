@@ -130,7 +130,6 @@
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
-    <Compile Include="Contexts\EFContext.cs" />
     <Compile Include="Controllers\CategoriasController.cs" />
     <Compile Include="Controllers\FabricantesController.cs" />
     <Compile Include="Controllers\ProdutosController.cs" />
@@ -511,8 +510,10 @@
     <Content Include="Views\Produtos\Details.cshtml" />
     <Content Include="Views\Produtos\Delete.cshtml" />
     <Content Include="Views\Produtos\_PorFabricante.cshtml" />
+    <Content Include="Views\Produtos\_PartialDetailsContentPanel.cshtml" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="Contexts\" />
     <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>
@@ -526,6 +527,10 @@
     <ProjectReference Include="..\Modelo\Modelo.csproj">
       <Project>{a0661c0b-5a94-42d5-9ab0-80f4498936e1}</Project>
       <Name>Modelo</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Servico\Servico.csproj">
+      <Project>{CDFCBB36-6402-4CA7-9D09-A0569D96F0EB}</Project>
+      <Name>Servico</Name>
     </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
