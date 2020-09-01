@@ -42,7 +42,7 @@ namespace Projeto01.Controllers
         // GET: Produtos/Edit/5
         public ActionResult Edit(long? id)
         {
-            PopularViewBag(produtoServico.ObterProdutoPorId((long) id));
+            PopularViewBag(produtoServico.ObterProdutoPorId((long)id));
             return ObterVisaoProdutoPorId(id);
         }
 
@@ -121,10 +121,13 @@ namespace Projeto01.Controllers
                     produtoServico.GravarProduto(produto);
                     return RedirectToAction("Index");
                 }
+
+                PopularViewBag(produto);
                 return View(produto);
             }
             catch
             {
+                PopularViewBag(produto);
                 return View(produto);
             }
         }

@@ -12,3 +12,5 @@ C:\Users\jessi\Documents\GitHub\asp-net-mvc\Projeto01\Persistencia\obj\Debug\Per
 C:\Users\jessi\Documents\GitHub\asp-net-mvc\Projeto01\Persistencia\obj\Debug\Persistencia.csproj.CopyComplete
 C:\Users\jessi\Documents\GitHub\asp-net-mvc\Projeto01\Persistencia\obj\Debug\Persistencia.dll
 C:\Users\jessi\Documents\GitHub\asp-net-mvc\Projeto01\Persistencia\obj\Debug\Persistencia.pdb
+C:\Users\jessi\Documents\GitHub\asp-net-mvc\Projeto01\Persistencia\obj\Debug\Persistencia.Migrations.InitialCreate.resources
+C:\Users\jessi\Documents\GitHub\asp-net-mvc\Projeto01\Persistencia\obj\Debug\Persistencia.csproj.GenerateResource.cache
