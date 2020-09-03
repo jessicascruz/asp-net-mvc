@@ -11,7 +11,7 @@ namespace Projeto01.Areas.Seguranca.Controllers
     public class AdminController : Controller
     {
         // GET: Seguranca/Admin
-        [Authorize]
+        [Authorize(Roles = "Administradores")]
         public ActionResult Index()
         {
             return View(GerenciadorUsuario.Users);

@@ -1,4 +1,6 @@
-﻿<!DOCTYPE html>
+﻿@using Projeto01.Infraestrutura
+
+<!DOCTYPE html>
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
@@ -12,30 +14,79 @@
 <body>
     <div class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
         <div class="container">
+            <div class="col-md-4">
             @Html.ActionLink("Nome do aplicativo", "Index", "Index", new { area = "" }, new { @class = "navbar-brand" })
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado" aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
                 <span class="navbar-toggler-icon"></span>
             </button>
+            </div>
 
+<div class="col-md-4">
             <div class="collapse navbar-collapse">
                 <ul class="navbar-nav mr-auto">
                     <li id="liHome" class="nav-item">
-                        <a class="nav-link" href="@Url.Action("Index", "Categorias")">Categorias</a>
+                        <a class="nav-link" href="@Url.Action("Index", "Categorias", new { area = "Tabelas" }, null)">Categorias</a>
                     </li>
                     <li id="liFabricantes" class="nav-item">
-                        <a class="nav-link" href="@Url.Action("Index", "Fabricantes")">Fabricantes</a>
+                        <a class="nav-link" href="@Url.Action("Index", "Fabricantes", new { area = "Cadastros" }, null)">Fabricantes</a>
                     </li>
                     <li id="liProdutos" class="nav-item">
-                        <a class="nav-link" href="@Url.Action("Index", "Produtos")">Produtos</a>
+                        <a class="nav-link" href="@Url.Action("Index", "Produtos", new { area = "Cadastros" }, null)">Produtos</a>
                     </li>
                      <li id="liUsuarios" class="nav-item">
-                        <a class="nav-link" href="@Url.Action("Index", "Admin")">Usuários</a>
+                        <a class="nav-link" href="@Url.Action("Index", "Admin", new { area = "Seguranca" }, null)">Usuários</a>
+                    </li>
+                     <li id="liPapeis" class="nav-item">
+                        <a class="nav-link" href="@Url.Action("Index", "PapelAdmin", new { area = "Seguranca" }, null)">Papéis</a>
                     </li>
                 </ul>
             </div>
+            </div>
+
+            <div class="col-md-4">
+
+                <div style="text-align:right;" class="text-white font-weight-bold">
+                    @{ 
+                        if (Html.GetAuthenticatedUser().ToString() != "") {
+                            @Html.GetAuthenticatedUser();
+                            @Html.ActionLink(" - Sair", "Logout", "Account");
+                        } else
+                        {
+                            @Html.ActionLink("Acessar", "Login", "Account", new { area = "Seguranca" }, null);
+                        }
+                     }
+                </div>
+
+            </div>
+
+
 
         </div>
     </div>
+
+
+    @* <div class="container">
+        <div class="row">
+            <div class="page-header bg-danger">
+                <div>
+                   <h1>Desenvolvimento em ASP.NET MVC <small class="text-danger">Utilizando o Bootstrap</small></h1>
+                </div>
+                <div style="text-align:right;">
+                    @{ 
+                        if (Html.GetAuthenticatedUser().ToString() != "") {
+                            @Html.GetAuthenticatedUser();
+                            @Html.ActionLink(" - Sair", "Logout", "Account");
+                        } else
+                        {
+                            @Html.ActionLink("Acessar", "Login", "Account", new { area = "Seguranca" }, null);
+                        }
+                     }
+                </div>
+            </div>
+        </div>
+    </div> *@
+
+
     <div class="container mt-5">
         @RenderBody()
         <hr />
