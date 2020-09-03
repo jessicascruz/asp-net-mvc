@@ -1,8 +1,9 @@
-﻿using System.Web.Mvc;
-using Modelo.Cadastros;
-using System.Net;
+﻿using Modelo.Cadastros;
 using Servico.Cadastros;
 using Servico.Tabelas;
+using System.Net;
+using System.Web;
+using System.Web.Mvc;
 
 namespace Projeto01.Areas.Cadastros.Controllers
 {
@@ -12,11 +13,22 @@ namespace Projeto01.Areas.Cadastros.Controllers
         private CategoriaServico categoriaServico = new CategoriaServico();
         private FabricanteServico fabricanteServico = new FabricanteServico();
 
+
+        public FileContentResult GetLogotipo(long id)
+        {
+            Produto produto = produtoServico.ObterProdutoPorId(id);
+            if (produto != null)
+            {
+                return File(produto.Logotipo, produto.LogotipoMimeType);
+            }
+            return null;
+        }
+
         // GET: Produtos
         public ActionResult Index()
         {
             return View(produtoServico.ObterProdutosClassificadosPorNome());
-            //return View(context.Produtos.OrderBy(c => c.Nome));
+            // return View(context.Produtos.OrderBy(c => c.Nome));
         }
 
         // GET: Produtos/Details/5
@@ -34,9 +46,9 @@ namespace Projeto01.Areas.Cadastros.Controllers
 
         // POST: Produtos/Create
         [HttpPost]
-        public ActionResult Create(Produto produto)
+        public ActionResult Create(Produto produto, HttpPostedFileBase logotipo = null, string chkRemoverImagem = null)
         {
-            return GravarProduto(produto);
+            return GravarProduto(produto, logotipo, chkRemoverImagem);
         }
 
         // GET: Produtos/Edit/5
@@ -48,9 +60,9 @@ namespace Projeto01.Areas.Cadastros.Controllers
 
         // POST: Produtos/Edit/5
         [HttpPost]
-        public ActionResult Edit(Produto produto)
+        public ActionResult Edit(Produto produto, HttpPostedFileBase logotipo = null, string chkRemoverImagem = null )
         {
-            return GravarProduto(produto);
+            return GravarProduto(produto, logotipo, chkRemoverImagem);
         }
 
         // GET: Produtos/Delete/5
@@ -112,16 +124,33 @@ namespace Projeto01.Areas.Cadastros.Controllers
             }
         }
 
-        private ActionResult GravarProduto(Produto produto)
+        private byte[] SetLogotipo(HttpPostedFileBase logotipo)
+        {
+            var bytesLogotipo = new byte[logotipo.ContentLength];
+            logotipo.InputStream.Read(bytesLogotipo, 0, logotipo.ContentLength);
+            return bytesLogotipo;
+        }
+
+        private ActionResult GravarProduto(Produto produto, HttpPostedFileBase logotipo, string chkRemoverImagem)
         {
             try
             {
                 if (ModelState.IsValid)
                 {
+                    if (chkRemoverImagem != null)
+                    {
+                        produto.Logotipo = null;
+                    }
+                    if (logotipo != null)
+                    {
+                        //produto.NomeArquivo = logotipo.FileName;
+                        //produto.TamanhoArquivo = logotipo.ContentLength;
+                        produto.LogotipoMimeType = logotipo.ContentType;
+                        produto.Logotipo = SetLogotipo(logotipo);
+                    }
                     produtoServico.GravarProduto(produto);
                     return RedirectToAction("Index");
                 }
-
                 PopularViewBag(produto);
                 return View(produto);
             }
