@@ -1,7 +1,10 @@
 ﻿using Modelo.Cadastros;
 using Servico.Cadastros;
 using Servico.Tabelas;
+using System;
+using System.IO;
 using System.Net;
+using System.Text;
 using System.Web;
 using System.Web.Mvc;
 
@@ -46,9 +49,9 @@ namespace Projeto01.Areas.Cadastros.Controllers
 
         // POST: Produtos/Create
         [HttpPost]
-        public ActionResult Create(Produto produto, HttpPostedFileBase logotipo = null, string chkRemoverImagem = null)
+        public ActionResult Create(Produto produto, HttpPostedFileBase logotipo)
         {
-            return GravarProduto(produto, logotipo, chkRemoverImagem);
+            return GravarProduto(produto, logotipo, null);
         }
 
         // GET: Produtos/Edit/5
@@ -143,8 +146,8 @@ namespace Projeto01.Areas.Cadastros.Controllers
                     }
                     if (logotipo != null)
                     {
-                        //produto.NomeArquivo = logotipo.FileName;
-                        //produto.TamanhoArquivo = logotipo.ContentLength;
+                        produto.NomeArquivo = logotipo.FileName;
+                        produto.TamanhoArquivo = logotipo.ContentLength;
                         produto.LogotipoMimeType = logotipo.ContentType;
                         produto.Logotipo = SetLogotipo(logotipo);
                     }
