@@ -34,5 +34,6 @@ namespace Modelo.Cadastros
         public Categoria Categoria { get; set; }
         public Fabricante Fabricante { get; set; }
 
+        public IEnumerable<HttpPostedFileBase> Arquivo { get; set; }
     }
 }
