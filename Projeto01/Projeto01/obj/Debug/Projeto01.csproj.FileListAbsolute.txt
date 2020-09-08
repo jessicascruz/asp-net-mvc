@@ -1,0 +1,408 @@
+D:\Estudos\Asp Net\Projeto01\Projeto01\bin\Projeto01.dll.config
+D:\Estudos\Asp Net\Projeto01\Projeto01\bin\Projeto01.dll
+D:\Estudos\Asp Net\Projeto01\Projeto01\bin\Projeto01.pdb
+D:\Estudos\Asp Net\Projeto01\Projeto01\bin\roslyn\csc.exe
+D:\Estudos\Asp Net\Projeto01\Projeto01\bin\roslyn\csc.exe.config
+D:\Estudos\Asp Net\Projeto01\Projeto01\bin\roslyn\csc.rsp
+D:\Estudos\Asp Net\Projeto01\Projeto01\bin\roslyn\csi.exe
+D:\Estudos\Asp Net\Projeto01\Projeto01\bin\roslyn\csi.exe.config
+D:\Estudos\Asp Net\Projeto01\Projeto01\bin\roslyn\csi.rsp
+D:\Estudos\Asp Net\Projeto01\Projeto01\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Estudos\Asp Net\Projeto01\Projeto01\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Estudos\Asp Net\Projeto01\Projeto01\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Estudos\Asp Net\Projeto01\Projeto01\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Estudos\Asp Net\Projeto01\Projeto01\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Estudos\Asp Net\Projeto01\Projeto01\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Estudos\Asp Net\Projeto01\Projeto01\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Estudos\Asp Net\Projeto01\Projeto01\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Estudos\Asp Net\Projeto01\Projeto01\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Estudos\Asp Net\Projeto01\Projeto01\bin\roslyn\Microsoft.Managed.Core.targets
+D:\Estudos\Asp Net\Projeto01\Projeto01\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Estudos\Asp Net\Projeto01\Projeto01\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\Estudos\Asp Net\Projeto01\Projeto01\bin\roslyn\System.AppContext.dll
+D:\Estudos\Asp Net\Projeto01\Projeto01\bin\roslyn\System.Collections.Immutable.dll
+D:\Estudos\Asp Net\Projeto01\Projeto01\bin\roslyn\System.Console.dll
+D:\Estudos\Asp Net\Projeto01\Projeto01\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\Estudos\Asp Net\Projeto01\Projeto01\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\Estudos\Asp Net\Projeto01\Projeto01\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Estudos\Asp Net\Projeto01\Projeto01\bin\roslyn\System.Globalization.Calendars.dll
+D:\Estudos\Asp Net\Projeto01\Projeto01\bin\roslyn\System.IO.Compression.dll
+D:\Estudos\Asp Net\Projeto01\Projeto01\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\Estudos\Asp Net\Projeto01\Projeto01\bin\roslyn\System.IO.FileSystem.dll
+D:\Estudos\Asp Net\Projeto01\Projeto01\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Estudos\Asp Net\Projeto01\Projeto01\bin\roslyn\System.Net.Http.dll
+D:\Estudos\Asp Net\Projeto01\Projeto01\bin\roslyn\System.Net.Sockets.dll
+D:\Estudos\Asp Net\Projeto01\Projeto01\bin\roslyn\System.Reflection.Metadata.dll
+D:\Estudos\Asp Net\Projeto01\Projeto01\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\Estudos\Asp Net\Projeto01\Projeto01\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\Estudos\Asp Net\Projeto01\Projeto01\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\Estudos\Asp Net\Projeto01\Projeto01\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\Estudos\Asp Net\Projeto01\Projeto01\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\Estudos\Asp Net\Projeto01\Projeto01\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\Estudos\Asp Net\Projeto01\Projeto01\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\Estudos\Asp Net\Projeto01\Projeto01\bin\roslyn\System.ValueTuple.dll
+D:\Estudos\Asp Net\Projeto01\Projeto01\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\Estudos\Asp Net\Projeto01\Projeto01\bin\roslyn\System.Xml.XmlDocument.dll
+D:\Estudos\Asp Net\Projeto01\Projeto01\bin\roslyn\System.Xml.XPath.dll
+D:\Estudos\Asp Net\Projeto01\Projeto01\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\Estudos\Asp Net\Projeto01\Projeto01\bin\roslyn\vbc.exe
+D:\Estudos\Asp Net\Projeto01\Projeto01\bin\roslyn\vbc.exe.config
+D:\Estudos\Asp Net\Projeto01\Projeto01\bin\roslyn\vbc.rsp
+D:\Estudos\Asp Net\Projeto01\Projeto01\bin\roslyn\VBCSCompiler.exe
+D:\Estudos\Asp Net\Projeto01\Projeto01\bin\roslyn\VBCSCompiler.exe.config
+D:\Estudos\Asp Net\Projeto01\Projeto01\bin\Antlr3.Runtime.dll
+D:\Estudos\Asp Net\Projeto01\Projeto01\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Estudos\Asp Net\Projeto01\Projeto01\bin\Microsoft.Web.Infrastructure.dll
+D:\Estudos\Asp Net\Projeto01\Projeto01\bin\Newtonsoft.Json.dll
+D:\Estudos\Asp Net\Projeto01\Projeto01\bin\System.Web.Helpers.dll
+D:\Estudos\Asp Net\Projeto01\Projeto01\bin\System.Web.Mvc.dll
+D:\Estudos\Asp Net\Projeto01\Projeto01\bin\System.Web.Optimization.dll
+D:\Estudos\Asp Net\Projeto01\Projeto01\bin\System.Web.Razor.dll
+D:\Estudos\Asp Net\Projeto01\Projeto01\bin\System.Web.WebPages.Deployment.dll
+D:\Estudos\Asp Net\Projeto01\Projeto01\bin\System.Web.WebPages.dll
+D:\Estudos\Asp Net\Projeto01\Projeto01\bin\System.Web.WebPages.Razor.dll
+D:\Estudos\Asp Net\Projeto01\Projeto01\bin\WebGrease.dll
+D:\Estudos\Asp Net\Projeto01\Projeto01\bin\System.Web.Helpers.xml
+D:\Estudos\Asp Net\Projeto01\Projeto01\bin\System.Web.Mvc.xml
+D:\Estudos\Asp Net\Projeto01\Projeto01\bin\System.Web.Optimization.xml
+D:\Estudos\Asp Net\Projeto01\Projeto01\bin\System.Web.Razor.xml
+D:\Estudos\Asp Net\Projeto01\Projeto01\bin\System.Web.WebPages.xml
+D:\Estudos\Asp Net\Projeto01\Projeto01\bin\System.Web.WebPages.Deployment.xml
+D:\Estudos\Asp Net\Projeto01\Projeto01\bin\System.Web.WebPages.Razor.xml
+D:\Estudos\Asp Net\Projeto01\Projeto01\bin\Newtonsoft.Json.xml
+D:\Estudos\Asp Net\Projeto01\Projeto01\bin\Antlr3.Runtime.pdb
+D:\Estudos\Asp Net\Projeto01\Projeto01\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Estudos\Asp Net\Projeto01\Projeto01\bin\pt-br\System.Web.Helpers.resources.dll
+D:\Estudos\Asp Net\Projeto01\Projeto01\bin\pt-br\System.Web.Mvc.resources.dll
+D:\Estudos\Asp Net\Projeto01\Projeto01\bin\pt-br\System.Web.Optimization.resources.dll
+D:\Estudos\Asp Net\Projeto01\Projeto01\bin\pt-br\System.Web.Razor.resources.dll
+D:\Estudos\Asp Net\Projeto01\Projeto01\bin\pt-br\System.Web.WebPages.resources.dll
+D:\Estudos\Asp Net\Projeto01\Projeto01\bin\pt-br\System.Web.WebPages.Deployment.resources.dll
+D:\Estudos\Asp Net\Projeto01\Projeto01\bin\pt-br\System.Web.WebPages.Razor.resources.dll
+D:\Estudos\Asp Net\Projeto01\Projeto01\obj\Debug\Projeto01.csprojAssemblyReference.cache
+D:\Estudos\Asp Net\Projeto01\Projeto01\obj\Debug\Projeto01.csproj.CoreCompileInputs.cache
+D:\Estudos\Asp Net\Projeto01\Projeto01\obj\Debug\Projeto01.csproj.CopyComplete
+D:\Estudos\Asp Net\Projeto01\Projeto01\obj\Debug\Projeto01.dll
+D:\Estudos\Asp Net\Projeto01\Projeto01\obj\Debug\Projeto01.pdb
+C:\Users\jessica.cruz\Documents\Testes\Projeto01\Projeto01\bin\Projeto01.dll.config
+C:\Users\jessica.cruz\Documents\Testes\Projeto01\Projeto01\bin\Projeto01.dll
+C:\Users\jessica.cruz\Documents\Testes\Projeto01\Projeto01\bin\Projeto01.pdb
+C:\Users\jessica.cruz\Documents\Testes\Projeto01\Projeto01\bin\roslyn\csc.exe
+C:\Users\jessica.cruz\Documents\Testes\Projeto01\Projeto01\bin\roslyn\csc.exe.config
+C:\Users\jessica.cruz\Documents\Testes\Projeto01\Projeto01\bin\roslyn\csc.rsp
+C:\Users\jessica.cruz\Documents\Testes\Projeto01\Projeto01\bin\roslyn\csi.exe
+C:\Users\jessica.cruz\Documents\Testes\Projeto01\Projeto01\bin\roslyn\csi.exe.config
+C:\Users\jessica.cruz\Documents\Testes\Projeto01\Projeto01\bin\roslyn\csi.rsp
+C:\Users\jessica.cruz\Documents\Testes\Projeto01\Projeto01\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\jessica.cruz\Documents\Testes\Projeto01\Projeto01\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\jessica.cruz\Documents\Testes\Projeto01\Projeto01\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\jessica.cruz\Documents\Testes\Projeto01\Projeto01\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\jessica.cruz\Documents\Testes\Projeto01\Projeto01\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\jessica.cruz\Documents\Testes\Projeto01\Projeto01\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\jessica.cruz\Documents\Testes\Projeto01\Projeto01\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\jessica.cruz\Documents\Testes\Projeto01\Projeto01\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\jessica.cruz\Documents\Testes\Projeto01\Projeto01\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\jessica.cruz\Documents\Testes\Projeto01\Projeto01\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\jessica.cruz\Documents\Testes\Projeto01\Projeto01\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\jessica.cruz\Documents\Testes\Projeto01\Projeto01\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\jessica.cruz\Documents\Testes\Projeto01\Projeto01\bin\roslyn\System.AppContext.dll
+C:\Users\jessica.cruz\Documents\Testes\Projeto01\Projeto01\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\jessica.cruz\Documents\Testes\Projeto01\Projeto01\bin\roslyn\System.Console.dll
+C:\Users\jessica.cruz\Documents\Testes\Projeto01\Projeto01\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\jessica.cruz\Documents\Testes\Projeto01\Projeto01\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\jessica.cruz\Documents\Testes\Projeto01\Projeto01\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\jessica.cruz\Documents\Testes\Projeto01\Projeto01\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\jessica.cruz\Documents\Testes\Projeto01\Projeto01\bin\roslyn\System.IO.Compression.dll
+C:\Users\jessica.cruz\Documents\Testes\Projeto01\Projeto01\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\jessica.cruz\Documents\Testes\Projeto01\Projeto01\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\jessica.cruz\Documents\Testes\Projeto01\Projeto01\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\jessica.cruz\Documents\Testes\Projeto01\Projeto01\bin\roslyn\System.Net.Http.dll
+C:\Users\jessica.cruz\Documents\Testes\Projeto01\Projeto01\bin\roslyn\System.Net.Sockets.dll
+C:\Users\jessica.cruz\Documents\Testes\Projeto01\Projeto01\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\jessica.cruz\Documents\Testes\Projeto01\Projeto01\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\jessica.cruz\Documents\Testes\Projeto01\Projeto01\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\jessica.cruz\Documents\Testes\Projeto01\Projeto01\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\jessica.cruz\Documents\Testes\Projeto01\Projeto01\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\jessica.cruz\Documents\Testes\Projeto01\Projeto01\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\jessica.cruz\Documents\Testes\Projeto01\Projeto01\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\jessica.cruz\Documents\Testes\Projeto01\Projeto01\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\jessica.cruz\Documents\Testes\Projeto01\Projeto01\bin\roslyn\System.ValueTuple.dll
+C:\Users\jessica.cruz\Documents\Testes\Projeto01\Projeto01\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\jessica.cruz\Documents\Testes\Projeto01\Projeto01\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\jessica.cruz\Documents\Testes\Projeto01\Projeto01\bin\roslyn\System.Xml.XPath.dll
+C:\Users\jessica.cruz\Documents\Testes\Projeto01\Projeto01\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\jessica.cruz\Documents\Testes\Projeto01\Projeto01\bin\roslyn\vbc.exe
+C:\Users\jessica.cruz\Documents\Testes\Projeto01\Projeto01\bin\roslyn\vbc.exe.config
+C:\Users\jessica.cruz\Documents\Testes\Projeto01\Projeto01\bin\roslyn\vbc.rsp
+C:\Users\jessica.cruz\Documents\Testes\Projeto01\Projeto01\bin\roslyn\VBCSCompiler.exe
+C:\Users\jessica.cruz\Documents\Testes\Projeto01\Projeto01\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\jessica.cruz\Documents\Testes\Projeto01\Projeto01\bin\Antlr3.Runtime.dll
+C:\Users\jessica.cruz\Documents\Testes\Projeto01\Projeto01\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\jessica.cruz\Documents\Testes\Projeto01\Projeto01\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\jessica.cruz\Documents\Testes\Projeto01\Projeto01\bin\Newtonsoft.Json.dll
+C:\Users\jessica.cruz\Documents\Testes\Projeto01\Projeto01\bin\System.Web.Helpers.dll
+C:\Users\jessica.cruz\Documents\Testes\Projeto01\Projeto01\bin\System.Web.Mvc.dll
+C:\Users\jessica.cruz\Documents\Testes\Projeto01\Projeto01\bin\System.Web.Optimization.dll
+C:\Users\jessica.cruz\Documents\Testes\Projeto01\Projeto01\bin\System.Web.Razor.dll
+C:\Users\jessica.cruz\Documents\Testes\Projeto01\Projeto01\bin\System.Web.WebPages.Deployment.dll
+C:\Users\jessica.cruz\Documents\Testes\Projeto01\Projeto01\bin\System.Web.WebPages.dll
+C:\Users\jessica.cruz\Documents\Testes\Projeto01\Projeto01\bin\System.Web.WebPages.Razor.dll
+C:\Users\jessica.cruz\Documents\Testes\Projeto01\Projeto01\bin\WebGrease.dll
+C:\Users\jessica.cruz\Documents\Testes\Projeto01\Projeto01\bin\System.Web.Helpers.xml
+C:\Users\jessica.cruz\Documents\Testes\Projeto01\Projeto01\bin\System.Web.Mvc.xml
+C:\Users\jessica.cruz\Documents\Testes\Projeto01\Projeto01\bin\System.Web.Optimization.xml
+C:\Users\jessica.cruz\Documents\Testes\Projeto01\Projeto01\bin\System.Web.Razor.xml
+C:\Users\jessica.cruz\Documents\Testes\Projeto01\Projeto01\bin\System.Web.WebPages.xml
+C:\Users\jessica.cruz\Documents\Testes\Projeto01\Projeto01\bin\System.Web.WebPages.Deployment.xml
+C:\Users\jessica.cruz\Documents\Testes\Projeto01\Projeto01\bin\System.Web.WebPages.Razor.xml
+C:\Users\jessica.cruz\Documents\Testes\Projeto01\Projeto01\bin\Newtonsoft.Json.xml
+C:\Users\jessica.cruz\Documents\Testes\Projeto01\Projeto01\bin\Antlr3.Runtime.pdb
+C:\Users\jessica.cruz\Documents\Testes\Projeto01\Projeto01\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\jessica.cruz\Documents\Testes\Projeto01\Projeto01\bin\pt-br\System.Web.Helpers.resources.dll
+C:\Users\jessica.cruz\Documents\Testes\Projeto01\Projeto01\bin\pt-br\System.Web.Mvc.resources.dll
+C:\Users\jessica.cruz\Documents\Testes\Projeto01\Projeto01\bin\pt-br\System.Web.Optimization.resources.dll
+C:\Users\jessica.cruz\Documents\Testes\Projeto01\Projeto01\bin\pt-br\System.Web.Razor.resources.dll
+C:\Users\jessica.cruz\Documents\Testes\Projeto01\Projeto01\bin\pt-br\System.Web.WebPages.resources.dll
+C:\Users\jessica.cruz\Documents\Testes\Projeto01\Projeto01\bin\pt-br\System.Web.WebPages.Deployment.resources.dll
+C:\Users\jessica.cruz\Documents\Testes\Projeto01\Projeto01\bin\pt-br\System.Web.WebPages.Razor.resources.dll
+C:\Users\jessica.cruz\Documents\Testes\Projeto01\Projeto01\obj\Debug\Projeto01.csprojResolveAssemblyReference.cache
+C:\Users\jessica.cruz\Documents\Testes\Projeto01\Projeto01\obj\Debug\Projeto01.dll
+C:\Users\jessica.cruz\Documents\Testes\Projeto01\Projeto01\obj\Debug\Projeto01.pdb
+C:\Users\jessica.cruz\Documents\Testes\Projeto01\Projeto01\bin\EntityFramework.dll
+C:\Users\jessica.cruz\Documents\Testes\Projeto01\Projeto01\bin\EntityFramework.SqlServer.dll
+C:\Users\jessica.cruz\Documents\Testes\Projeto01\Projeto01\bin\EntityFramework.xml
+C:\Users\jessica.cruz\Documents\Testes\Projeto01\Projeto01\bin\EntityFramework.SqlServer.xml
+D:\Estudos\Asp Net\Projeto01\Projeto01\bin\EntityFramework.dll
+D:\Estudos\Asp Net\Projeto01\Projeto01\bin\EntityFramework.SqlServer.dll
+D:\Estudos\Asp Net\Projeto01\Projeto01\bin\EntityFramework.xml
+D:\Estudos\Asp Net\Projeto01\Projeto01\bin\EntityFramework.SqlServer.xml
+C:\Users\jessi\Documents\GitHub\asp-net-mvc\Projeto01\Projeto01\obj\Debug\Projeto01.csprojAssemblyReference.cache
+C:\Users\jessi\Documents\GitHub\asp-net-mvc\Projeto01\Projeto01\obj\Debug\Projeto01.csproj.CoreCompileInputs.cache
+C:\Users\jessi\Documents\GitHub\asp-net-mvc\Projeto01\Projeto01\obj\Debug\Projeto01.dll
+C:\Users\jessi\Documents\GitHub\asp-net-mvc\Projeto01\Projeto01\obj\Debug\Projeto01.pdb
+C:\Users\jessi\Documents\GitHub\asp-net-mvc\Projeto01\Projeto01\bin\Projeto01.dll.config
+C:\Users\jessi\Documents\GitHub\asp-net-mvc\Projeto01\Projeto01\bin\Projeto01.dll
+C:\Users\jessi\Documents\GitHub\asp-net-mvc\Projeto01\Projeto01\bin\Projeto01.pdb
+C:\Users\jessi\Documents\GitHub\asp-net-mvc\Projeto01\Projeto01\bin\roslyn\csc.exe
+C:\Users\jessi\Documents\GitHub\asp-net-mvc\Projeto01\Projeto01\bin\roslyn\csc.exe.config
+C:\Users\jessi\Documents\GitHub\asp-net-mvc\Projeto01\Projeto01\bin\roslyn\csc.rsp
+C:\Users\jessi\Documents\GitHub\asp-net-mvc\Projeto01\Projeto01\bin\roslyn\csi.exe
+C:\Users\jessi\Documents\GitHub\asp-net-mvc\Projeto01\Projeto01\bin\roslyn\csi.exe.config
+C:\Users\jessi\Documents\GitHub\asp-net-mvc\Projeto01\Projeto01\bin\roslyn\csi.rsp
+C:\Users\jessi\Documents\GitHub\asp-net-mvc\Projeto01\Projeto01\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\jessi\Documents\GitHub\asp-net-mvc\Projeto01\Projeto01\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\jessi\Documents\GitHub\asp-net-mvc\Projeto01\Projeto01\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\jessi\Documents\GitHub\asp-net-mvc\Projeto01\Projeto01\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\jessi\Documents\GitHub\asp-net-mvc\Projeto01\Projeto01\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\jessi\Documents\GitHub\asp-net-mvc\Projeto01\Projeto01\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\jessi\Documents\GitHub\asp-net-mvc\Projeto01\Projeto01\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\jessi\Documents\GitHub\asp-net-mvc\Projeto01\Projeto01\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\jessi\Documents\GitHub\asp-net-mvc\Projeto01\Projeto01\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\jessi\Documents\GitHub\asp-net-mvc\Projeto01\Projeto01\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\jessi\Documents\GitHub\asp-net-mvc\Projeto01\Projeto01\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\jessi\Documents\GitHub\asp-net-mvc\Projeto01\Projeto01\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\jessi\Documents\GitHub\asp-net-mvc\Projeto01\Projeto01\bin\roslyn\System.AppContext.dll
+C:\Users\jessi\Documents\GitHub\asp-net-mvc\Projeto01\Projeto01\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\jessi\Documents\GitHub\asp-net-mvc\Projeto01\Projeto01\bin\roslyn\System.Console.dll
+C:\Users\jessi\Documents\GitHub\asp-net-mvc\Projeto01\Projeto01\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\jessi\Documents\GitHub\asp-net-mvc\Projeto01\Projeto01\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\jessi\Documents\GitHub\asp-net-mvc\Projeto01\Projeto01\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\jessi\Documents\GitHub\asp-net-mvc\Projeto01\Projeto01\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\jessi\Documents\GitHub\asp-net-mvc\Projeto01\Projeto01\bin\roslyn\System.IO.Compression.dll
+C:\Users\jessi\Documents\GitHub\asp-net-mvc\Projeto01\Projeto01\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\jessi\Documents\GitHub\asp-net-mvc\Projeto01\Projeto01\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\jessi\Documents\GitHub\asp-net-mvc\Projeto01\Projeto01\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\jessi\Documents\GitHub\asp-net-mvc\Projeto01\Projeto01\bin\roslyn\System.Net.Http.dll
+C:\Users\jessi\Documents\GitHub\asp-net-mvc\Projeto01\Projeto01\bin\roslyn\System.Net.Sockets.dll
+C:\Users\jessi\Documents\GitHub\asp-net-mvc\Projeto01\Projeto01\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\jessi\Documents\GitHub\asp-net-mvc\Projeto01\Projeto01\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\jessi\Documents\GitHub\asp-net-mvc\Projeto01\Projeto01\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\jessi\Documents\GitHub\asp-net-mvc\Projeto01\Projeto01\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\jessi\Documents\GitHub\asp-net-mvc\Projeto01\Projeto01\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\jessi\Documents\GitHub\asp-net-mvc\Projeto01\Projeto01\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\jessi\Documents\GitHub\asp-net-mvc\Projeto01\Projeto01\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\jessi\Documents\GitHub\asp-net-mvc\Projeto01\Projeto01\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\jessi\Documents\GitHub\asp-net-mvc\Projeto01\Projeto01\bin\roslyn\System.ValueTuple.dll
+C:\Users\jessi\Documents\GitHub\asp-net-mvc\Projeto01\Projeto01\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\jessi\Documents\GitHub\asp-net-mvc\Projeto01\Projeto01\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\jessi\Documents\GitHub\asp-net-mvc\Projeto01\Projeto01\bin\roslyn\System.Xml.XPath.dll
+C:\Users\jessi\Documents\GitHub\asp-net-mvc\Projeto01\Projeto01\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\jessi\Documents\GitHub\asp-net-mvc\Projeto01\Projeto01\bin\roslyn\vbc.exe
+C:\Users\jessi\Documents\GitHub\asp-net-mvc\Projeto01\Projeto01\bin\roslyn\vbc.exe.config
+C:\Users\jessi\Documents\GitHub\asp-net-mvc\Projeto01\Projeto01\bin\roslyn\vbc.rsp
+C:\Users\jessi\Documents\GitHub\asp-net-mvc\Projeto01\Projeto01\bin\roslyn\VBCSCompiler.exe
+C:\Users\jessi\Documents\GitHub\asp-net-mvc\Projeto01\Projeto01\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\jessi\Documents\GitHub\asp-net-mvc\Projeto01\Projeto01\bin\Antlr3.Runtime.dll
+C:\Users\jessi\Documents\GitHub\asp-net-mvc\Projeto01\Projeto01\bin\EntityFramework.dll
+C:\Users\jessi\Documents\GitHub\asp-net-mvc\Projeto01\Projeto01\bin\EntityFramework.SqlServer.dll
+C:\Users\jessi\Documents\GitHub\asp-net-mvc\Projeto01\Projeto01\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\jessi\Documents\GitHub\asp-net-mvc\Projeto01\Projeto01\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\jessi\Documents\GitHub\asp-net-mvc\Projeto01\Projeto01\bin\Modelo.dll
+C:\Users\jessi\Documents\GitHub\asp-net-mvc\Projeto01\Projeto01\bin\Newtonsoft.Json.dll
+C:\Users\jessi\Documents\GitHub\asp-net-mvc\Projeto01\Projeto01\bin\System.Web.Helpers.dll
+C:\Users\jessi\Documents\GitHub\asp-net-mvc\Projeto01\Projeto01\bin\System.Web.Mvc.dll
+C:\Users\jessi\Documents\GitHub\asp-net-mvc\Projeto01\Projeto01\bin\System.Web.Optimization.dll
+C:\Users\jessi\Documents\GitHub\asp-net-mvc\Projeto01\Projeto01\bin\System.Web.Razor.dll
+C:\Users\jessi\Documents\GitHub\asp-net-mvc\Projeto01\Projeto01\bin\System.Web.WebPages.Deployment.dll
+C:\Users\jessi\Documents\GitHub\asp-net-mvc\Projeto01\Projeto01\bin\System.Web.WebPages.dll
+C:\Users\jessi\Documents\GitHub\asp-net-mvc\Projeto01\Projeto01\bin\System.Web.WebPages.Razor.dll
+C:\Users\jessi\Documents\GitHub\asp-net-mvc\Projeto01\Projeto01\bin\WebGrease.dll
+C:\Users\jessi\Documents\GitHub\asp-net-mvc\Projeto01\Projeto01\bin\Modelo.pdb
+C:\Users\jessi\Documents\GitHub\asp-net-mvc\Projeto01\Projeto01\bin\EntityFramework.xml
+C:\Users\jessi\Documents\GitHub\asp-net-mvc\Projeto01\Projeto01\bin\EntityFramework.SqlServer.xml
+C:\Users\jessi\Documents\GitHub\asp-net-mvc\Projeto01\Projeto01\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\jessi\Documents\GitHub\asp-net-mvc\Projeto01\Projeto01\bin\Newtonsoft.Json.xml
+C:\Users\jessi\Documents\GitHub\asp-net-mvc\Projeto01\Projeto01\bin\System.Web.Helpers.xml
+C:\Users\jessi\Documents\GitHub\asp-net-mvc\Projeto01\Projeto01\bin\System.Web.Mvc.xml
+C:\Users\jessi\Documents\GitHub\asp-net-mvc\Projeto01\Projeto01\bin\System.Web.Optimization.xml
+C:\Users\jessi\Documents\GitHub\asp-net-mvc\Projeto01\Projeto01\bin\System.Web.Razor.xml
+C:\Users\jessi\Documents\GitHub\asp-net-mvc\Projeto01\Projeto01\bin\System.Web.WebPages.xml
+C:\Users\jessi\Documents\GitHub\asp-net-mvc\Projeto01\Projeto01\bin\System.Web.WebPages.Deployment.xml
+C:\Users\jessi\Documents\GitHub\asp-net-mvc\Projeto01\Projeto01\bin\System.Web.WebPages.Razor.xml
+C:\Users\jessi\Documents\GitHub\asp-net-mvc\Projeto01\Projeto01\bin\Antlr3.Runtime.pdb
+C:\Users\jessi\Documents\GitHub\asp-net-mvc\Projeto01\Projeto01\bin\pt-br\System.Web.Helpers.resources.dll
+C:\Users\jessi\Documents\GitHub\asp-net-mvc\Projeto01\Projeto01\bin\pt-br\System.Web.Mvc.resources.dll
+C:\Users\jessi\Documents\GitHub\asp-net-mvc\Projeto01\Projeto01\bin\pt-br\System.Web.Optimization.resources.dll
+C:\Users\jessi\Documents\GitHub\asp-net-mvc\Projeto01\Projeto01\bin\pt-br\System.Web.Razor.resources.dll
+C:\Users\jessi\Documents\GitHub\asp-net-mvc\Projeto01\Projeto01\bin\pt-br\System.Web.WebPages.resources.dll
+C:\Users\jessi\Documents\GitHub\asp-net-mvc\Projeto01\Projeto01\bin\pt-br\System.Web.WebPages.Deployment.resources.dll
+C:\Users\jessi\Documents\GitHub\asp-net-mvc\Projeto01\Projeto01\bin\pt-br\System.Web.WebPages.Razor.resources.dll
+C:\Users\jessi\Documents\GitHub\asp-net-mvc\Projeto01\Projeto01\obj\Debug\Projeto01.csproj.CopyComplete
+C:\Users\jessi\Documents\GitHub\asp-net-mvc\Projeto01\Projeto01\bin\Servico.dll
+C:\Users\jessi\Documents\GitHub\asp-net-mvc\Projeto01\Projeto01\bin\Persistencia.dll
+C:\Users\jessi\Documents\GitHub\asp-net-mvc\Projeto01\Projeto01\bin\Servico.pdb
+C:\Users\jessi\Documents\GitHub\asp-net-mvc\Projeto01\Projeto01\bin\Persistencia.pdb
+C:\Users\jessi\Documents\GitHub\asp-net-mvc\Projeto01\Projeto01\bin\Persistencia.dll.config
+C:\Users\jessi\Documents\GitHub\asp-net-mvc\Projeto01\Projeto01\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\jessi\Documents\GitHub\asp-net-mvc\Projeto01\Projeto01\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\jessi\Documents\GitHub\asp-net-mvc\Projeto01\Projeto01\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\jessi\Documents\GitHub\asp-net-mvc\Projeto01\Projeto01\bin\Microsoft.Owin.dll
+C:\Users\jessi\Documents\GitHub\asp-net-mvc\Projeto01\Projeto01\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\jessi\Documents\GitHub\asp-net-mvc\Projeto01\Projeto01\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\jessi\Documents\GitHub\asp-net-mvc\Projeto01\Projeto01\bin\Microsoft.Owin.Security.dll
+C:\Users\jessi\Documents\GitHub\asp-net-mvc\Projeto01\Projeto01\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\jessi\Documents\GitHub\asp-net-mvc\Projeto01\Projeto01\bin\Owin.dll
+C:\Users\jessi\Documents\GitHub\asp-net-mvc\Projeto01\Projeto01\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\jessi\Documents\GitHub\asp-net-mvc\Projeto01\Projeto01\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\jessi\Documents\GitHub\asp-net-mvc\Projeto01\Projeto01\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\jessi\Documents\GitHub\asp-net-mvc\Projeto01\Projeto01\bin\Microsoft.Owin.xml
+C:\Users\jessi\Documents\GitHub\asp-net-mvc\Projeto01\Projeto01\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\jessi\Documents\GitHub\asp-net-mvc\Projeto01\Projeto01\bin\Microsoft.Owin.Security.xml
+C:\Users\jessi\Documents\GitHub\asp-net-mvc\Projeto01\Projeto01\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\jessi\Documents\GitHub\asp-net-mvc\Projeto01\Projeto01\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\jessi\Downloads\asp-net-mvc-0251b8e4297bd83aca5b358e1173898d72a8730e\asp-net-mvc-0251b8e4297bd83aca5b358e1173898d72a8730e\Projeto01\Projeto01\obj\Debug\Projeto01.dll
+C:\Users\jessi\Downloads\asp-net-mvc-0251b8e4297bd83aca5b358e1173898d72a8730e\asp-net-mvc-0251b8e4297bd83aca5b358e1173898d72a8730e\Projeto01\Projeto01\obj\Debug\Projeto01.pdb
+C:\Users\jessi\Downloads\asp-net-mvc-0251b8e4297bd83aca5b358e1173898d72a8730e\asp-net-mvc-\Projeto01\Projeto01\bin\Projeto01.dll.config
+C:\Users\jessi\Downloads\asp-net-mvc-0251b8e4297bd83aca5b358e1173898d72a8730e\asp-net-mvc-\Projeto01\Projeto01\bin\Projeto01.dll
+C:\Users\jessi\Downloads\asp-net-mvc-0251b8e4297bd83aca5b358e1173898d72a8730e\asp-net-mvc-\Projeto01\Projeto01\bin\Projeto01.pdb
+C:\Users\jessi\Downloads\asp-net-mvc-0251b8e4297bd83aca5b358e1173898d72a8730e\asp-net-mvc-\Projeto01\Projeto01\bin\roslyn\csc.exe
+C:\Users\jessi\Downloads\asp-net-mvc-0251b8e4297bd83aca5b358e1173898d72a8730e\asp-net-mvc-\Projeto01\Projeto01\bin\roslyn\csc.exe.config
+C:\Users\jessi\Downloads\asp-net-mvc-0251b8e4297bd83aca5b358e1173898d72a8730e\asp-net-mvc-\Projeto01\Projeto01\bin\roslyn\csc.rsp
+C:\Users\jessi\Downloads\asp-net-mvc-0251b8e4297bd83aca5b358e1173898d72a8730e\asp-net-mvc-\Projeto01\Projeto01\bin\roslyn\csi.exe
+C:\Users\jessi\Downloads\asp-net-mvc-0251b8e4297bd83aca5b358e1173898d72a8730e\asp-net-mvc-\Projeto01\Projeto01\bin\roslyn\csi.exe.config
+C:\Users\jessi\Downloads\asp-net-mvc-0251b8e4297bd83aca5b358e1173898d72a8730e\asp-net-mvc-\Projeto01\Projeto01\bin\roslyn\csi.rsp
+C:\Users\jessi\Downloads\asp-net-mvc-0251b8e4297bd83aca5b358e1173898d72a8730e\asp-net-mvc-\Projeto01\Projeto01\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\jessi\Downloads\asp-net-mvc-0251b8e4297bd83aca5b358e1173898d72a8730e\asp-net-mvc-\Projeto01\Projeto01\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\jessi\Downloads\asp-net-mvc-0251b8e4297bd83aca5b358e1173898d72a8730e\asp-net-mvc-\Projeto01\Projeto01\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\jessi\Downloads\asp-net-mvc-0251b8e4297bd83aca5b358e1173898d72a8730e\asp-net-mvc-\Projeto01\Projeto01\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\jessi\Downloads\asp-net-mvc-0251b8e4297bd83aca5b358e1173898d72a8730e\asp-net-mvc-\Projeto01\Projeto01\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\jessi\Downloads\asp-net-mvc-0251b8e4297bd83aca5b358e1173898d72a8730e\asp-net-mvc-\Projeto01\Projeto01\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\jessi\Downloads\asp-net-mvc-0251b8e4297bd83aca5b358e1173898d72a8730e\asp-net-mvc-\Projeto01\Projeto01\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\jessi\Downloads\asp-net-mvc-0251b8e4297bd83aca5b358e1173898d72a8730e\asp-net-mvc-\Projeto01\Projeto01\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\jessi\Downloads\asp-net-mvc-0251b8e4297bd83aca5b358e1173898d72a8730e\asp-net-mvc-\Projeto01\Projeto01\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\jessi\Downloads\asp-net-mvc-0251b8e4297bd83aca5b358e1173898d72a8730e\asp-net-mvc-\Projeto01\Projeto01\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\jessi\Downloads\asp-net-mvc-0251b8e4297bd83aca5b358e1173898d72a8730e\asp-net-mvc-\Projeto01\Projeto01\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\jessi\Downloads\asp-net-mvc-0251b8e4297bd83aca5b358e1173898d72a8730e\asp-net-mvc-\Projeto01\Projeto01\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\jessi\Downloads\asp-net-mvc-0251b8e4297bd83aca5b358e1173898d72a8730e\asp-net-mvc-\Projeto01\Projeto01\bin\roslyn\System.AppContext.dll
+C:\Users\jessi\Downloads\asp-net-mvc-0251b8e4297bd83aca5b358e1173898d72a8730e\asp-net-mvc-\Projeto01\Projeto01\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\jessi\Downloads\asp-net-mvc-0251b8e4297bd83aca5b358e1173898d72a8730e\asp-net-mvc-\Projeto01\Projeto01\bin\roslyn\System.Console.dll
+C:\Users\jessi\Downloads\asp-net-mvc-0251b8e4297bd83aca5b358e1173898d72a8730e\asp-net-mvc-\Projeto01\Projeto01\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\jessi\Downloads\asp-net-mvc-0251b8e4297bd83aca5b358e1173898d72a8730e\asp-net-mvc-\Projeto01\Projeto01\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\jessi\Downloads\asp-net-mvc-0251b8e4297bd83aca5b358e1173898d72a8730e\asp-net-mvc-\Projeto01\Projeto01\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\jessi\Downloads\asp-net-mvc-0251b8e4297bd83aca5b358e1173898d72a8730e\asp-net-mvc-\Projeto01\Projeto01\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\jessi\Downloads\asp-net-mvc-0251b8e4297bd83aca5b358e1173898d72a8730e\asp-net-mvc-\Projeto01\Projeto01\bin\roslyn\System.IO.Compression.dll
+C:\Users\jessi\Downloads\asp-net-mvc-0251b8e4297bd83aca5b358e1173898d72a8730e\asp-net-mvc-\Projeto01\Projeto01\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\jessi\Downloads\asp-net-mvc-0251b8e4297bd83aca5b358e1173898d72a8730e\asp-net-mvc-\Projeto01\Projeto01\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\jessi\Downloads\asp-net-mvc-0251b8e4297bd83aca5b358e1173898d72a8730e\asp-net-mvc-\Projeto01\Projeto01\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\jessi\Downloads\asp-net-mvc-0251b8e4297bd83aca5b358e1173898d72a8730e\asp-net-mvc-\Projeto01\Projeto01\bin\roslyn\System.Net.Http.dll
+C:\Users\jessi\Downloads\asp-net-mvc-0251b8e4297bd83aca5b358e1173898d72a8730e\asp-net-mvc-\Projeto01\Projeto01\bin\roslyn\System.Net.Sockets.dll
+C:\Users\jessi\Downloads\asp-net-mvc-0251b8e4297bd83aca5b358e1173898d72a8730e\asp-net-mvc-\Projeto01\Projeto01\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\jessi\Downloads\asp-net-mvc-0251b8e4297bd83aca5b358e1173898d72a8730e\asp-net-mvc-\Projeto01\Projeto01\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\jessi\Downloads\asp-net-mvc-0251b8e4297bd83aca5b358e1173898d72a8730e\asp-net-mvc-\Projeto01\Projeto01\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\jessi\Downloads\asp-net-mvc-0251b8e4297bd83aca5b358e1173898d72a8730e\asp-net-mvc-\Projeto01\Projeto01\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\jessi\Downloads\asp-net-mvc-0251b8e4297bd83aca5b358e1173898d72a8730e\asp-net-mvc-\Projeto01\Projeto01\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\jessi\Downloads\asp-net-mvc-0251b8e4297bd83aca5b358e1173898d72a8730e\asp-net-mvc-\Projeto01\Projeto01\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\jessi\Downloads\asp-net-mvc-0251b8e4297bd83aca5b358e1173898d72a8730e\asp-net-mvc-\Projeto01\Projeto01\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\jessi\Downloads\asp-net-mvc-0251b8e4297bd83aca5b358e1173898d72a8730e\asp-net-mvc-\Projeto01\Projeto01\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\jessi\Downloads\asp-net-mvc-0251b8e4297bd83aca5b358e1173898d72a8730e\asp-net-mvc-\Projeto01\Projeto01\bin\roslyn\System.ValueTuple.dll
+C:\Users\jessi\Downloads\asp-net-mvc-0251b8e4297bd83aca5b358e1173898d72a8730e\asp-net-mvc-\Projeto01\Projeto01\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\jessi\Downloads\asp-net-mvc-0251b8e4297bd83aca5b358e1173898d72a8730e\asp-net-mvc-\Projeto01\Projeto01\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\jessi\Downloads\asp-net-mvc-0251b8e4297bd83aca5b358e1173898d72a8730e\asp-net-mvc-\Projeto01\Projeto01\bin\roslyn\System.Xml.XPath.dll
+C:\Users\jessi\Downloads\asp-net-mvc-0251b8e4297bd83aca5b358e1173898d72a8730e\asp-net-mvc-\Projeto01\Projeto01\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\jessi\Downloads\asp-net-mvc-0251b8e4297bd83aca5b358e1173898d72a8730e\asp-net-mvc-\Projeto01\Projeto01\bin\roslyn\vbc.exe
+C:\Users\jessi\Downloads\asp-net-mvc-0251b8e4297bd83aca5b358e1173898d72a8730e\asp-net-mvc-\Projeto01\Projeto01\bin\roslyn\vbc.exe.config
+C:\Users\jessi\Downloads\asp-net-mvc-0251b8e4297bd83aca5b358e1173898d72a8730e\asp-net-mvc-\Projeto01\Projeto01\bin\roslyn\vbc.rsp
+C:\Users\jessi\Downloads\asp-net-mvc-0251b8e4297bd83aca5b358e1173898d72a8730e\asp-net-mvc-\Projeto01\Projeto01\bin\roslyn\VBCSCompiler.exe
+C:\Users\jessi\Downloads\asp-net-mvc-0251b8e4297bd83aca5b358e1173898d72a8730e\asp-net-mvc-\Projeto01\Projeto01\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\jessi\Downloads\asp-net-mvc-0251b8e4297bd83aca5b358e1173898d72a8730e\asp-net-mvc-\Projeto01\Projeto01\bin\Antlr3.Runtime.dll
+C:\Users\jessi\Downloads\asp-net-mvc-0251b8e4297bd83aca5b358e1173898d72a8730e\asp-net-mvc-\Projeto01\Projeto01\bin\EntityFramework.dll
+C:\Users\jessi\Downloads\asp-net-mvc-0251b8e4297bd83aca5b358e1173898d72a8730e\asp-net-mvc-\Projeto01\Projeto01\bin\EntityFramework.SqlServer.dll
+C:\Users\jessi\Downloads\asp-net-mvc-0251b8e4297bd83aca5b358e1173898d72a8730e\asp-net-mvc-\Projeto01\Projeto01\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\jessi\Downloads\asp-net-mvc-0251b8e4297bd83aca5b358e1173898d72a8730e\asp-net-mvc-\Projeto01\Projeto01\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\jessi\Downloads\asp-net-mvc-0251b8e4297bd83aca5b358e1173898d72a8730e\asp-net-mvc-\Projeto01\Projeto01\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\jessi\Downloads\asp-net-mvc-0251b8e4297bd83aca5b358e1173898d72a8730e\asp-net-mvc-\Projeto01\Projeto01\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\jessi\Downloads\asp-net-mvc-0251b8e4297bd83aca5b358e1173898d72a8730e\asp-net-mvc-\Projeto01\Projeto01\bin\Microsoft.Owin.dll
+C:\Users\jessi\Downloads\asp-net-mvc-0251b8e4297bd83aca5b358e1173898d72a8730e\asp-net-mvc-\Projeto01\Projeto01\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\jessi\Downloads\asp-net-mvc-0251b8e4297bd83aca5b358e1173898d72a8730e\asp-net-mvc-\Projeto01\Projeto01\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\jessi\Downloads\asp-net-mvc-0251b8e4297bd83aca5b358e1173898d72a8730e\asp-net-mvc-\Projeto01\Projeto01\bin\Microsoft.Owin.Security.dll
+C:\Users\jessi\Downloads\asp-net-mvc-0251b8e4297bd83aca5b358e1173898d72a8730e\asp-net-mvc-\Projeto01\Projeto01\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\jessi\Downloads\asp-net-mvc-0251b8e4297bd83aca5b358e1173898d72a8730e\asp-net-mvc-\Projeto01\Projeto01\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\jessi\Downloads\asp-net-mvc-0251b8e4297bd83aca5b358e1173898d72a8730e\asp-net-mvc-\Projeto01\Projeto01\bin\Modelo.dll
+C:\Users\jessi\Downloads\asp-net-mvc-0251b8e4297bd83aca5b358e1173898d72a8730e\asp-net-mvc-\Projeto01\Projeto01\bin\Newtonsoft.Json.dll
+C:\Users\jessi\Downloads\asp-net-mvc-0251b8e4297bd83aca5b358e1173898d72a8730e\asp-net-mvc-\Projeto01\Projeto01\bin\Owin.dll
+C:\Users\jessi\Downloads\asp-net-mvc-0251b8e4297bd83aca5b358e1173898d72a8730e\asp-net-mvc-\Projeto01\Projeto01\bin\Servico.dll
+C:\Users\jessi\Downloads\asp-net-mvc-0251b8e4297bd83aca5b358e1173898d72a8730e\asp-net-mvc-\Projeto01\Projeto01\bin\System.Web.Helpers.dll
+C:\Users\jessi\Downloads\asp-net-mvc-0251b8e4297bd83aca5b358e1173898d72a8730e\asp-net-mvc-\Projeto01\Projeto01\bin\System.Web.Mvc.dll
+C:\Users\jessi\Downloads\asp-net-mvc-0251b8e4297bd83aca5b358e1173898d72a8730e\asp-net-mvc-\Projeto01\Projeto01\bin\System.Web.Optimization.dll
+C:\Users\jessi\Downloads\asp-net-mvc-0251b8e4297bd83aca5b358e1173898d72a8730e\asp-net-mvc-\Projeto01\Projeto01\bin\System.Web.Razor.dll
+C:\Users\jessi\Downloads\asp-net-mvc-0251b8e4297bd83aca5b358e1173898d72a8730e\asp-net-mvc-\Projeto01\Projeto01\bin\System.Web.WebPages.Deployment.dll
+C:\Users\jessi\Downloads\asp-net-mvc-0251b8e4297bd83aca5b358e1173898d72a8730e\asp-net-mvc-\Projeto01\Projeto01\bin\System.Web.WebPages.dll
+C:\Users\jessi\Downloads\asp-net-mvc-0251b8e4297bd83aca5b358e1173898d72a8730e\asp-net-mvc-\Projeto01\Projeto01\bin\System.Web.WebPages.Razor.dll
+C:\Users\jessi\Downloads\asp-net-mvc-0251b8e4297bd83aca5b358e1173898d72a8730e\asp-net-mvc-\Projeto01\Projeto01\bin\WebGrease.dll
+C:\Users\jessi\Downloads\asp-net-mvc-0251b8e4297bd83aca5b358e1173898d72a8730e\asp-net-mvc-\Projeto01\Projeto01\bin\Persistencia.dll
+C:\Users\jessi\Downloads\asp-net-mvc-0251b8e4297bd83aca5b358e1173898d72a8730e\asp-net-mvc-\Projeto01\Projeto01\bin\Modelo.pdb
+C:\Users\jessi\Downloads\asp-net-mvc-0251b8e4297bd83aca5b358e1173898d72a8730e\asp-net-mvc-\Projeto01\Projeto01\bin\Servico.pdb
+C:\Users\jessi\Downloads\asp-net-mvc-0251b8e4297bd83aca5b358e1173898d72a8730e\asp-net-mvc-\Projeto01\Projeto01\bin\EntityFramework.xml
+C:\Users\jessi\Downloads\asp-net-mvc-0251b8e4297bd83aca5b358e1173898d72a8730e\asp-net-mvc-\Projeto01\Projeto01\bin\EntityFramework.SqlServer.xml
+C:\Users\jessi\Downloads\asp-net-mvc-0251b8e4297bd83aca5b358e1173898d72a8730e\asp-net-mvc-\Projeto01\Projeto01\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\jessi\Downloads\asp-net-mvc-0251b8e4297bd83aca5b358e1173898d72a8730e\asp-net-mvc-\Projeto01\Projeto01\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\jessi\Downloads\asp-net-mvc-0251b8e4297bd83aca5b358e1173898d72a8730e\asp-net-mvc-\Projeto01\Projeto01\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\jessi\Downloads\asp-net-mvc-0251b8e4297bd83aca5b358e1173898d72a8730e\asp-net-mvc-\Projeto01\Projeto01\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\jessi\Downloads\asp-net-mvc-0251b8e4297bd83aca5b358e1173898d72a8730e\asp-net-mvc-\Projeto01\Projeto01\bin\Microsoft.Owin.xml
+C:\Users\jessi\Downloads\asp-net-mvc-0251b8e4297bd83aca5b358e1173898d72a8730e\asp-net-mvc-\Projeto01\Projeto01\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\jessi\Downloads\asp-net-mvc-0251b8e4297bd83aca5b358e1173898d72a8730e\asp-net-mvc-\Projeto01\Projeto01\bin\Microsoft.Owin.Security.xml
+C:\Users\jessi\Downloads\asp-net-mvc-0251b8e4297bd83aca5b358e1173898d72a8730e\asp-net-mvc-\Projeto01\Projeto01\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\jessi\Downloads\asp-net-mvc-0251b8e4297bd83aca5b358e1173898d72a8730e\asp-net-mvc-\Projeto01\Projeto01\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\jessi\Downloads\asp-net-mvc-0251b8e4297bd83aca5b358e1173898d72a8730e\asp-net-mvc-\Projeto01\Projeto01\bin\Newtonsoft.Json.xml
+C:\Users\jessi\Downloads\asp-net-mvc-0251b8e4297bd83aca5b358e1173898d72a8730e\asp-net-mvc-\Projeto01\Projeto01\bin\System.Web.Helpers.xml
+C:\Users\jessi\Downloads\asp-net-mvc-0251b8e4297bd83aca5b358e1173898d72a8730e\asp-net-mvc-\Projeto01\Projeto01\bin\System.Web.Mvc.xml
+C:\Users\jessi\Downloads\asp-net-mvc-0251b8e4297bd83aca5b358e1173898d72a8730e\asp-net-mvc-\Projeto01\Projeto01\bin\System.Web.Optimization.xml
+C:\Users\jessi\Downloads\asp-net-mvc-0251b8e4297bd83aca5b358e1173898d72a8730e\asp-net-mvc-\Projeto01\Projeto01\bin\System.Web.Razor.xml
+C:\Users\jessi\Downloads\asp-net-mvc-0251b8e4297bd83aca5b358e1173898d72a8730e\asp-net-mvc-\Projeto01\Projeto01\bin\System.Web.WebPages.xml
+C:\Users\jessi\Downloads\asp-net-mvc-0251b8e4297bd83aca5b358e1173898d72a8730e\asp-net-mvc-\Projeto01\Projeto01\bin\System.Web.WebPages.Deployment.xml
+C:\Users\jessi\Downloads\asp-net-mvc-0251b8e4297bd83aca5b358e1173898d72a8730e\asp-net-mvc-\Projeto01\Projeto01\bin\System.Web.WebPages.Razor.xml
+C:\Users\jessi\Downloads\asp-net-mvc-0251b8e4297bd83aca5b358e1173898d72a8730e\asp-net-mvc-\Projeto01\Projeto01\bin\Antlr3.Runtime.pdb
+C:\Users\jessi\Downloads\asp-net-mvc-0251b8e4297bd83aca5b358e1173898d72a8730e\asp-net-mvc-\Projeto01\Projeto01\bin\Persistencia.pdb
+C:\Users\jessi\Downloads\asp-net-mvc-0251b8e4297bd83aca5b358e1173898d72a8730e\asp-net-mvc-\Projeto01\Projeto01\bin\Persistencia.dll.config
+C:\Users\jessi\Downloads\asp-net-mvc-0251b8e4297bd83aca5b358e1173898d72a8730e\asp-net-mvc-\Projeto01\Projeto01\bin\pt-br\System.Web.Helpers.resources.dll
+C:\Users\jessi\Downloads\asp-net-mvc-0251b8e4297bd83aca5b358e1173898d72a8730e\asp-net-mvc-\Projeto01\Projeto01\bin\pt-br\System.Web.Mvc.resources.dll
+C:\Users\jessi\Downloads\asp-net-mvc-0251b8e4297bd83aca5b358e1173898d72a8730e\asp-net-mvc-\Projeto01\Projeto01\bin\pt-br\System.Web.Optimization.resources.dll
+C:\Users\jessi\Downloads\asp-net-mvc-0251b8e4297bd83aca5b358e1173898d72a8730e\asp-net-mvc-\Projeto01\Projeto01\bin\pt-br\System.Web.Razor.resources.dll
+C:\Users\jessi\Downloads\asp-net-mvc-0251b8e4297bd83aca5b358e1173898d72a8730e\asp-net-mvc-\Projeto01\Projeto01\bin\pt-br\System.Web.WebPages.resources.dll
+C:\Users\jessi\Downloads\asp-net-mvc-0251b8e4297bd83aca5b358e1173898d72a8730e\asp-net-mvc-\Projeto01\Projeto01\bin\pt-br\System.Web.WebPages.Deployment.resources.dll
+C:\Users\jessi\Downloads\asp-net-mvc-0251b8e4297bd83aca5b358e1173898d72a8730e\asp-net-mvc-\Projeto01\Projeto01\bin\pt-br\System.Web.WebPages.Razor.resources.dll
+C:\Users\jessi\Downloads\asp-net-mvc-0251b8e4297bd83aca5b358e1173898d72a8730e\asp-net-mvc-\Projeto01\Projeto01\obj\Debug\Projeto01.csprojAssemblyReference.cache
+C:\Users\jessi\Downloads\asp-net-mvc-0251b8e4297bd83aca5b358e1173898d72a8730e\asp-net-mvc-\Projeto01\Projeto01\obj\Debug\Projeto01.csproj.CoreCompileInputs.cache
+C:\Users\jessi\Downloads\asp-net-mvc-0251b8e4297bd83aca5b358e1173898d72a8730e\asp-net-mvc-\Projeto01\Projeto01\obj\Debug\Projeto01.csproj.CopyComplete
+C:\Users\jessi\Downloads\asp-net-mvc-0251b8e4297bd83aca5b358e1173898d72a8730e\asp-net-mvc-\Projeto01\Projeto01\obj\Debug\Projeto01.dll
+C:\Users\jessi\Downloads\asp-net-mvc-0251b8e4297bd83aca5b358e1173898d72a8730e\asp-net-mvc-\Projeto01\Projeto01\obj\Debug\Projeto01.pdb
