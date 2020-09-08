@@ -3,6 +3,8 @@ using Modelo.Cadastros;
 using System.Net;
 using Servico.Cadastros;
 using Servico.Tabelas;
+using System.IO;
+using System;
 
 namespace Projeto01.Areas.Cadastros.Controllers
 {
@@ -119,6 +121,7 @@ namespace Projeto01.Areas.Cadastros.Controllers
                 if (ModelState.IsValid)
                 {
                     produtoServico.GravarProduto(produto);
+                    UploadImagem(produto);
                     return RedirectToAction("Index");
                 }
 
@@ -129,6 +132,19 @@ namespace Projeto01.Areas.Cadastros.Controllers
             {
                 PopularViewBag(produto);
                 return View(produto);
+            }
+        }
+
+        private void UploadImagem(Produto produto)
+        {
+            string nomeArquivo = "";
+            foreach (var arquivo in produto.Arquivo)
+            {
+                nomeArquivo = Path.GetFileName(Convert.ToString(produto.ProdutoId));
+                // nomeArquivo = Convert.ToString(produto.ProdutoId);
+                var caminho = Path.Combine(Server.MapPath("~/Uploads"), nomeArquivo);
+                arquivo.SaveAs(caminho);
+
             }
         }
     }

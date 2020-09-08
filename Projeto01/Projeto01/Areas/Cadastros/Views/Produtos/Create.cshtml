@@ -5,7 +5,7 @@
     ViewBag.Title = "Registrando um NOVO PRODUTO";
 }
 
-@using (Html.BeginForm())
+@using (Html.BeginForm("Create", "Produtos", FormMethod.Post, new { enctype = "multipart/form-data" }))
 {
     @Html.AntiForgeryToken()
 
@@ -35,9 +35,9 @@
                 @Html.LabelFor(model => model.CategoriaId, "Categoria", htmlAttributes: new { @class = "control-label col-md-2" })
                 <div class="col-md-12">
                     @Html.DropDownList("CategoriaId", null,
-                   htmlAttributes: new
+                        htmlAttributes: new
                         {
-                       @class = "form-control col-12"
+                            @class = "form-control col-12"
                         })
                     @Html.ValidationMessageFor(model => model.CategoriaId, "", new { @class = "text-danger" })
                 </div>
@@ -50,6 +50,14 @@
                     @Html.ValidationMessageFor(model => model.FabricanteId, "", new { @class = "text-danger" })
                 </div>
             </div>
+
+            <div class="form-group">
+                <label for="Arquivo">Arquivo:</label>
+                <input type="file" class="form-control-file" id="Arquivo" name="Arquivo">
+            </div>
+
+
+
         </div>
         <div class="card-footer bg-transparent">
             <div class="col-md-offset-2 col-md-10">
