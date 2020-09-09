@@ -167,6 +167,7 @@
     <Compile Include="Areas\Tabelas\Controllers\CategoriasController.cs" />
     <Compile Include="Areas\Cadastros\Controllers\FabricantesController.cs" />
     <Compile Include="Areas\Cadastros\Controllers\ProdutosController.cs" />
+    <Compile Include="Controllers\ErrorsController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="DAL\IdentityDbContextAplicacao.cs" />
     <Compile Include="Global.asax.cs">
@@ -570,6 +571,9 @@
     <Content Include="Areas\Cadastros\Views\Produtos\_PartialDetailsContentPanel.cshtml" />
     <Content Include="Areas\Cadastros\Views\Produtos\_PartialEditContentPanel.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
+    <Content Include="Views\Errors\General.cshtml" />
+    <Content Include="Views\Errors\Http400.cshtml" />
+    <Content Include="Views\Errors\Http404.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Areas\Cadastros\Data\" />

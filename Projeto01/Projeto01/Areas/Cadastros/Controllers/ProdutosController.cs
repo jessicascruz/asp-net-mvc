@@ -172,7 +172,7 @@ namespace Projeto01.Areas.Cadastros.Controllers
             var caminhoDaImagem = Server.MapPath("~/Uploads/" + id.ToString() + ".jpg");
             byte[] dadosArquivo = System.IO.File.ReadAllBytes(caminhoDaImagem);
 
-            return File(dadosArquivo, System.Net.Mime.MediaTypeNames.Image.Jpeg, "meuarquivo.jpg");
+            return File(dadosArquivo, System.Net.Mime.MediaTypeNames.Image.Jpeg, "image.jpg");
         }
     }
 }
