@@ -89,6 +89,12 @@ namespace Projeto01.Areas.Seguranca.Controllers
             return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
         }
 
+        [HttpPost]
+        public ActionResult Delete(long id)
+        {
+            return View();
+        }
+
         private void AddErrorsFromResult(IdentityResult result)
         {
             foreach (string error in result.Errors)
