@@ -24,6 +24,9 @@
                         @Html.DisplayNameFor(model => model.ProdutoId)
                     </th>
                     <th>
+                        Img
+                    </th>
+                    <th>
                         @Html.DisplayNameFor(model => model.Nome)
                     </th>
                     <th>Categoria</th>
@@ -37,6 +40,20 @@
                         <td>
                             @Html.DisplayFor(modelItem => item.ProdutoId)
                         </td>
+
+                        <td style="width: 6rem;">
+                            @{ var profileImg = "~/Uploads/" + item.ProdutoId.ToString() + ".jpg";
+                                var absolutePath = HttpContext.Current.Server.MapPath(profileImg);
+
+                                if (System.IO.File.Exists(absolutePath))
+                                {
+                        <img class="img-thumbnail" src="@Url.Content("~/Uploads/" + item.ProdutoId.ToString() + ".jpg")" style=" width: 70%;" /> }
+                    else
+                    {
+                        <img class="img-thumbnail" src="~/Uploads/sem-imagem.jpg" alt="Imagem produto" style=" width: 70%;" /> } }
+                        </td>
+
+
                         <td>
                             @Html.DisplayFor(modelItem => item.Nome)
                         </td>

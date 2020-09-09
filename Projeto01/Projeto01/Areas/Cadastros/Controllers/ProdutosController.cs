@@ -38,7 +38,7 @@ namespace Projeto01.Areas.Cadastros.Controllers
         [HttpPost]
         public ActionResult Create(Produto produto)
         {
-            return GravarProduto(produto);
+            return GravarProduto(produto, null);
         }
 
         // GET: Produtos/Edit/5
@@ -50,9 +50,14 @@ namespace Projeto01.Areas.Cadastros.Controllers
 
         // POST: Produtos/Edit/5
         [HttpPost]
-        public ActionResult Edit(Produto produto)
+        public ActionResult Edit(Produto produto, string remover)
         {
-            return GravarProduto(produto);
+            long id = (long)produto.ProdutoId;
+            if (remover != null)
+            {
+                DeletarImagem(id);
+            }
+            return GravarProduto(produto, remover);
         }
 
         // GET: Produtos/Delete/5
@@ -67,6 +72,7 @@ namespace Projeto01.Areas.Cadastros.Controllers
         {
             try
             {
+                DeletarImagem(id);
                 Produto produto = produtoServico.EliminarProdutoPorId(id);
                
                 TempData["Message"] = "Produto " + produto.Nome.ToUpper() + " foi removido";
@@ -114,14 +120,19 @@ namespace Projeto01.Areas.Cadastros.Controllers
             }
         }
 
-        private ActionResult GravarProduto(Produto produto)
+        private ActionResult GravarProduto(Produto produto, string remover)
         {
             try
             {
                 if (ModelState.IsValid)
                 {
                     produtoServico.GravarProduto(produto);
-                    UploadImagem(produto);
+
+                    if (remover == null)
+                    {
+                        UploadImagem(produto);
+                    }
+
                     return RedirectToAction("Index");
                 }
 
@@ -140,12 +151,20 @@ namespace Projeto01.Areas.Cadastros.Controllers
             string nomeArquivo = "";
             foreach (var arquivo in produto.Arquivo)
             {
-                nomeArquivo = Path.GetFileName(Convert.ToString(produto.ProdutoId));
+                nomeArquivo = Path.GetFileName(Convert.ToString(produto.ProdutoId) + ".jpg");
                 // nomeArquivo = Convert.ToString(produto.ProdutoId);
                 var caminho = Path.Combine(Server.MapPath("~/Uploads"), nomeArquivo);
                 arquivo.SaveAs(caminho);
-
             }
+        }
+
+        private void DeletarImagem(long id)
+        {
+            var profileImg = "~/Uploads/" + id.ToString() + ".jpg";
+            var absolutePath = Server.MapPath(profileImg);
+
+            System.IO.File.Delete(absolutePath);
+
         }
     }
 }
