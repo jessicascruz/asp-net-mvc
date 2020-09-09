@@ -35,5 +35,8 @@ namespace Modelo.Cadastros
         public Fabricante Fabricante { get; set; }
 
         public IEnumerable<HttpPostedFileBase> Arquivo { get; set; }
+
+        public string NomeArquivo { get; set; }
+        public long TamanhoArquivo { get; set; }
     }
 }

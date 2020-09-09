@@ -166,5 +166,13 @@ namespace Projeto01.Areas.Cadastros.Controllers
             System.IO.File.Delete(absolutePath);
 
         }
+
+        public ActionResult DownloadImagem(long id)
+        {
+            var caminhoDaImagem = Server.MapPath("~/Uploads/" + id.ToString() + ".jpg");
+            byte[] dadosArquivo = System.IO.File.ReadAllBytes(caminhoDaImagem);
+
+            return File(dadosArquivo, System.Net.Mime.MediaTypeNames.Image.Jpeg, "meuarquivo.jpg");
+        }
     }
 }
