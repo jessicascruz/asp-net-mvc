@@ -9,6 +9,9 @@
         Visualizando detalhes de um PRODUTO
     </div>
     <div class="card-body">
+        <div class="container">
+            <div class="row">
+            <div class="col-md-5">
         <div class="form-group">
             @Html.LabelFor(model => model.Nome)<br />
             <div class="input-group">
@@ -36,16 +39,19 @@
                 @Html.EditorFor(model => model.Fabricante.Nome, new { htmlAttributes = new { @class = "form-control", disabled = "disabled" } })
             </div>
         </div>
+            </div>
+
+<div class="col-md-7">
 
         <div class="form-group">
-             <div class="card" style="width:50%">
+             <div class="card">
             @{ 
                var profileImg = "~/Uploads/" + Model.ProdutoId.ToString() + ".jpg";
                var absolutePath = HttpContext.Current.Server.MapPath(profileImg);
                
                 if (System.IO.File.Exists(absolutePath))
                             {
-                <img class="img-thumbnail" src="@Url.Content("~/Uploads/" + Model.ProdutoId.ToString() + ".jpg")" style="height: 30rem;" /> }
+                <img class="img-thumbnail" src="@Url.Content("~/Uploads/" + Model.ProdutoId.ToString() + ".jpg")" /> }
                             else
                             {
                 <img class="img-thumbnail" src="~/Uploads/sem-imagem.jpg" alt="Imagem produto" /> 
@@ -53,6 +59,10 @@
              }
              </div>
         </div>
+</div>
+
+            </div>
+            </div>
 
     </div>
 

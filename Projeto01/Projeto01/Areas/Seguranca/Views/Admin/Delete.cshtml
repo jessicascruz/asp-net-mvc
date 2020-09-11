@@ -16,7 +16,7 @@
                 <span class="input-group-addon">
                     <i class="glyphicon glyphicon-user"></i>
                 </span>
-                @Html.EditorFor(model => model.Id, new { htmlAttributes = new { @class = "form-control", disabled = "disabled" } })
+                @Html.EditorFor(model => model.Id, new { htmlAttributes = new { @class = "form-control col-md-12", disabled = "disabled" } })
             </div>
         </div>
         <div class="form-group">
@@ -25,7 +25,7 @@
                 <span class="input-group-addon">
                     <i class="glyphicon glyphicon-user"></i>
                 </span>
-                @Html.EditorFor(model => model.UserName, new { htmlAttributes = new { @class = "form-control", disabled = "disabled" } })
+                @Html.EditorFor(model => model.UserName, new { htmlAttributes = new { @class = "form-control col-md-12", disabled = "disabled" } })
             </div>
         </div>
         <div class="form-group">
@@ -34,13 +34,13 @@
                 <span class="input-group-addon">
                     <i class="glyphicon glyphicon-user"></i>
                 </span>
-                @Html.EditorFor(model => model.Email, new { htmlAttributes = new { @class = "form-control", disabled = "disabled" } })
+                @Html.EditorFor(model => model.Email, new { htmlAttributes = new { @class = "form-control col-md-12", disabled = "disabled" } })
             </div>
         </div>
     </div>
     <div class="card-footer bg-light">
-        <a href="#" class="btn btn-info" data-toggle="modal" data-target="#deleteConfirmationModal">Remover</a>
-        @Html.ActionLink("Retornar para a listagem", "Index", null, new { @class = "btn btn-info" })
+        <a href="#" class="btn btn-danger" data-toggle="modal" data-target="#deleteConfirmationModal">Remover</a>
+        @Html.ActionLink("Cancelar", "Index", null, new { @class = "btn btn-info" })
     </div>
 </div>
 
@@ -48,7 +48,8 @@
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">
-                <h4 class="modal-title">Confirmação de exclusão de usuário</h4>
+                @* <h4 class="modal-title">Confirmação de exclusão de usuário</h4> *@
+                <h4 class="modal-title">Você está certo que deseja prosseguir?</h4>
                 <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
                     &times;
                 </button>
@@ -58,9 +59,9 @@
                     Você está prestes a remover o usuário @Model.UserName.ToUpper() do cadastro.
                 </p>
                 <p>
-                    <strong>
+                    @* <strong>
                         Você está certo que deseja prosseguir?
-                    </strong>
+                    </strong> *@
                 </p>
                 @using (Html.BeginForm("Delete", "Admin", FormMethod.Post, new { @id = "delete-form", role = "form" }))
                 {

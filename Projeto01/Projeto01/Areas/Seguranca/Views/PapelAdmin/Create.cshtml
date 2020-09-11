@@ -14,20 +14,18 @@
             Registro de um NOVO PAPEL
         </div>
         <div class="panel-body">
-                <div class="form-group mt-2">
+                <div class="form-group mt-3 ml-3">
                     <div class="col-md-10">
                         <label>Nome</label>
-                        <input name="nome" value="@Model" class="form-control" />
+                        <input name="nome" value="@Model" class="form-control col-md-12" />
                     </div>
                 </div>
         </div>
         <div class="card-footer bg-light">
             <div class="col-md-offset-2 col-md-10">
-                <input type="submit" value="Adicionar Papel" class="btn btn-danger" />
-                @Html.ActionLink("Retornar para a listagem de PAPÉIS", "Index", null, new { @class = "btn btn-warning" })
+                <input type="submit" value="Adicionar Papel" class="btn btn-info" />
+                @Html.ActionLink("Cancelar", "Index", null, new { @class = "btn btn-danger" })
             </div>
-            <br />
-            <br />
         </div>
     </div>
 }

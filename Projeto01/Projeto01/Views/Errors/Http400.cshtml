@@ -9,11 +9,11 @@
     <meta name="viewport" content="width=device-width" />
     <title>Http400</title>
 </head>
-<body>
+<body class="background-erro">
     <div class="container error-404">
-        <h1>400</h1>
-        <h2>Houston, temos um problema.</h2>
-        <p>
+        <h1 class="text-white">400</h1>
+        <h2 class="text-white">Temos um problema.</h2>
+        <p class="text-white">
             Sua solicitação é inválida. Verifique o endereço informado no navegador e tente novamente.
             <br /><br />
             @HttpContext.Current.Session["ErrorException"].ToString().Substring(0, 400)

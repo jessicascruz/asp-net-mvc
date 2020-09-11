@@ -13,7 +13,7 @@
 
     <div class="card border border-primary">
         <div class="card-header text-uppercase text-white font-weight-bold bg-primary">
-            Alteração dos dados de um CATEGORIA
+            Alterar dados de uma CATEGORIA
         </div>
         <div class="card-body">
             @Html.ValidationSummary(true, "", new { @class = "text-danger" })
@@ -31,7 +31,7 @@
         <div class="card-footer">
             <div class="col-md-offset-2 col-md-10">
                 <input type="submit" value="Gravar alterações" class="btn btn-info" />
-                @Html.ActionLink("Retornar para a listagem de CATEGORIAS", "Index", null, new { @class = "btn btn-warning" })
+                @Html.ActionLink("Cancelar", "Index", null, new { @class = "btn btn-danger" })
             </div>
         </div>
     </div>

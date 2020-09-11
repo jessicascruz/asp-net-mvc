@@ -4,21 +4,22 @@
 <head>
     <meta name="viewport" content="width=device-width" />
     <title>General</title>
+    @Styles.Render("~/Content/styles.css")
 </head>
-<body>
+<body class="background-erro">
     <div>
-        <h1>500</h1>
-        <h2>Houston, temos um problema.</h2>
-        <p>
+        <h1 class="text-white">500</h1>
+        <h2 class="text-white">Temos um problema.</h2>
+        <p class="text-white">
             Infelizmente um erro interno ocorreu. Por favor, tente mais tarde ou entre em contato com o suporte.
             <br /><br />
             @HttpContext.Current.Session["ErrorException"].ToString().Substring(0, 400)
         </p>
         <p>
-            <a href='@Url.Action("Index", "Home")'>
+            <a class="btn btn-info" href='@Url.Action("Index", "Home")'>
                 Retornar ao início
             </a>
-            <br>
+            
         </p>
     </div>
 </body>

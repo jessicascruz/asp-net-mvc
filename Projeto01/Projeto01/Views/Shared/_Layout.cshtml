@@ -8,6 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>@ViewBag.Title</title>
     @Styles.Render("~/Content/css")
+    @Styles.Render("~/Content/styles.css")
     @Scripts.Render("~/bundles/modernizr")
     @RenderSection("Styles", false)
 </head>
@@ -15,14 +16,14 @@
     <div class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
         <div class="container">
             <div class="col-md-4">
-            @Html.ActionLink("Nome do aplicativo", "Index", "Index", new { area = "" }, new { @class = "navbar-brand" })
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado" aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+            @Html.ActionLink("Nome do aplicativo", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado" aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
+            <span class="navbar-toggler-icon"></span>
+          </button>
             </div>
 
-<div class="col-md-4">
-            <div class="collapse navbar-collapse">
+        <div class="col-md-4">
+            <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
                 <ul class="navbar-nav mr-auto">
                     <li id="liHome" class="nav-item">
                         <a class="nav-link" href="@Url.Action("Index", "Categorias", new { area = "Tabelas" }, null)">Categorias</a>
@@ -49,10 +50,13 @@
                     @{ 
                         if (Html.GetAuthenticatedUser().ToString() != "") {
                             @Html.GetAuthenticatedUser();
-                            @Html.ActionLink(" - Sair", "Logout", "Account");
+                            @* <a class="text-white-50 font-italic sair" href="@Url.Action(" - Sair", "Logout", "Account", null)"> - Sair</a> *@
+                            <span class="">
+                                @Html.ActionLink(" - Sair", "Logout", "Account", null, new { @class = "font-italic sair"})
+                            </span>
                         } else
                         {
-                            @Html.ActionLink("Acessar", "Login", "Account", new { area = "Seguranca" }, null);
+                            @Html.ActionLink("Acessar", "Login", "Account", new { area = "Seguranca" }, new { @class = "text-white"});
                         }
                      }
                 </div>
@@ -63,28 +67,6 @@
 
         </div>
     </div>
-
-
-    @* <div class="container">
-        <div class="row">
-            <div class="page-header bg-danger">
-                <div>
-                   <h1>Desenvolvimento em ASP.NET MVC <small class="text-danger">Utilizando o Bootstrap</small></h1>
-                </div>
-                <div style="text-align:right;">
-                    @{ 
-                        if (Html.GetAuthenticatedUser().ToString() != "") {
-                            @Html.GetAuthenticatedUser();
-                            @Html.ActionLink(" - Sair", "Logout", "Account");
-                        } else
-                        {
-                            @Html.ActionLink("Acessar", "Login", "Account", new { area = "Seguranca" }, null);
-                        }
-                     }
-                </div>
-            </div>
-        </div>
-    </div> *@
 
 
     <div class="container mt-5">

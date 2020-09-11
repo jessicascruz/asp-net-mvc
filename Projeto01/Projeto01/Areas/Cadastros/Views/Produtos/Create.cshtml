@@ -51,7 +51,7 @@
                 </div>
             </div>
 
-            <div class="form-group">
+            <div class="form-group ml-3">
                 <label for="Arquivo">Arquivo:</label>
                 <input type="file" class="form-control-file" id="Arquivo" name="Arquivo">
             </div>
@@ -61,8 +61,8 @@
         </div>
         <div class="card-footer bg-transparent">
             <div class="col-md-offset-2 col-md-10">
-                <input type="submit" value="Adicionar Produto" class="btn btn-danger" />
-                @Html.ActionLink("Retornar para a listagem de PRODUTOS", "Index", null, new { @class = "btn btn-warning text-white" })
+                <input type="submit" value="Adicionar Produto" class="btn btn-info" />
+                @Html.ActionLink("Cancelar", "Index", null, new { @class = "btn btn-danger" })
             </div>
         </div>
     </div>

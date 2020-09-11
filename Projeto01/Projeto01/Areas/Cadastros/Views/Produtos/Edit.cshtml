@@ -19,17 +19,21 @@
             @Html.ValidationSummary(true, "", new { @class = "text-danger" })
             @Html.HiddenFor(model => model.ProdutoId)
 
+            <div class="container">
+            <div class="row">
+            <div class="col-md-5">
+
             <div class="form-group">
-                @Html.LabelFor(model => model.Nome, htmlAttributes: new { @class = "control-label col-md-2" })
-                <div class="col-md-10">
+                @Html.LabelFor(model => model.Nome, htmlAttributes: new { @class = "control-label" })
+                <div class="">
                     @Html.EditorFor(model => model.Nome, new { htmlAttributes = new { @class = "form-control" } })
                     @Html.ValidationMessageFor(model => model.Nome, "", new { @class = "text-danger" })
                 </div>
             </div>
 
             <div class="form-group">
-                @Html.LabelFor(model => model.DataCadastro, htmlAttributes: new { @class = "control-label col-md-2" })
-                <div class="col-md-10">
+                @Html.LabelFor(model => model.DataCadastro, htmlAttributes: new { @class = "control-label" })
+                <div class="">
                     @Html.EditorFor(model => model.DataCadastro, new { htmlAttributes = new { @class = "form-control", id = "datepicker" } })
                     @Html.ValidationMessageFor(model => model.DataCadastro, "", new { @class = "text-danger" })
                 </div>
@@ -37,48 +41,61 @@
 
 
             <div class="form-group">
-                @Html.LabelFor(model => model.CategoriaId, "CategoriaId", htmlAttributes: new { @class = "control-label col-md-2" })
-                <div class="col-md-10">
+                @Html.LabelFor(model => model.CategoriaId, "CategoriaId", htmlAttributes: new { @class = "control-label" })
+                <div class="">
                     @Html.DropDownList("CategoriaId", null, htmlAttributes: new { @class = "form-control" })
                     @Html.ValidationMessageFor(model => model.CategoriaId, "", new { @class = "text-danger" })
                 </div>
             </div>
 
             <div class="form-group">
-                @Html.LabelFor(model => model.FabricanteId, "FabricanteId", htmlAttributes: new { @class = "control-label col-md-2" })
-                <div class="col-md-10">
+                @Html.LabelFor(model => model.FabricanteId, "FabricanteId", htmlAttributes: new { @class = "control-label" })
+                <div class="">
                     @Html.DropDownList("FabricanteId", null, htmlAttributes: new { @class = "form-control" })
                     @Html.ValidationMessageFor(model => model.FabricanteId, "", new { @class = "text-danger" })
                 </div>
             </div>
 
-            <div class="form-group">
+ <div class="form-group ml-3">
                 <label for="Arquivo">Arquivo:</label>
                 <input type="file" class="form-control-file" id="Arquivo" name="Arquivo">
             </div>
 
+            </div>
+
+            <div class="col-md-7">
+
+           
+
+
             <div class="form-group">
-                <div class="card" style="width:50%">
+                <div class="card">
                     @{ var profileImg = "~/Uploads/" + Model.ProdutoId.ToString() + ".jpg";
                         var absolutePath = HttpContext.Current.Server.MapPath(profileImg);
 
                         if (System.IO.File.Exists(absolutePath))
                         {
-        <img class="img-thumbnail" src="@Url.Content("~/Uploads/" + Model.ProdutoId.ToString() + ".jpg")" style="height: 30rem;" /> }
+        <img class="img-thumbnail" src="@Url.Content("~/Uploads/" + Model.ProdutoId.ToString() + ".jpg")" /> }
     else
     {
         <img class="img-thumbnail" src="~/Uploads/sem-imagem.jpg" alt="Imagem produto" /> } }
                 </div>
             </div>
 
+            <div class="d-flex justify-content-between">
             <label>
                 <input type="checkbox" name="remover" value="Sim" />
                 Remover imagem
             </label>
 
-            @Html.ActionLink("Baixar a imagem", "DownloadImagem", "Produtos", new { area = "Cadastros", id = Model.ProdutoId }, null)
+            @Html.ActionLink("Baixar a imagem", "DownloadImagem", "Produtos", new { area = "Cadastros", id = Model.ProdutoId }, new {@class="btn btn-dark"})
+</div>
+
+            </div>
 
 
+        </div>
+        </div>
 
         </div>
         <div class="card-footer bg-light">
